@@ -12,18 +12,18 @@ Get into a game
 *** Keywords ***
 Open League and que
     Windows Search    League of Legends
-    Sleep    60s
-    Find Element    alias:Play
-    RPA.Desktop.Click    alias:Play
+    Sleep    40s
+    Run Keyword and continue on failure    Find Element    alias:Play
+    Run Keyword and continue on failure    RPA.Desktop.Click    alias:Play
     Sleep    2s
-    Find Element    alias:Tft
-    RPA.Desktop.Click    alias:Tft
+    Run Keyword and continue on failure    Find Element    alias:Tft
+    Run Keyword and continue on failure    RPA.Desktop.Click    alias:Tft
     Sleep    2s
-    Find Element    alias:ranked
-    RPA.Desktop.Click    alias:ranked
+    Run Keyword and continue on failure    Find Element    alias:ranked
+    Run Keyword and continue on failure    RPA.Desktop.Click    alias:ranked
     Sleep    2s
-    Find Element    alias:confirm
-    RPA.Desktop.Click    alias:confirm
+    Run Keyword and continue on failure    Find Element    alias:confirm
+    Run Keyword and continue on failure    RPA.Desktop.Click    alias:confirm
     Sleep    5s
     Find Element    alias:findmatch
     RPA.Desktop.Click    alias:findmatch
