@@ -1,0 +1,50 @@
+{
+    "ACCEPT": {
+        "confidence": 80.0,
+        "path": ".images\\accept-path.png",
+        "source": null,
+        "type": "image"
+    },
+    "Accept": {
+        "confidence": 50.0,
+        "path": ".images\\accept-path.png",
+        "source": null,
+        "type": "image"
+    },
+    "Accepty": {
+        "confidence": 50.0,
+        "path": ".images\\accepty-path.png",
+        "source": null,
+        "type": "image"
+    },
+    "Play": {
+        "confidence": 50.0,
+        "path": ".images\\play-path.png",
+        "source": null,
+        "type": "image"
+    },
+    "Tft": {
+        "confidence": 55.0,
+        "path": ".images\\tft-path.png",
+        "source": null,
+        "type": "image"
+    },
+    "confirm": {
+        "confidence": 53.0,
+        "path": ".images\\confirm-path.png",
+        "source": null,
+        "type": "image"
+    },
+    "findmatch": {
+        "confidence": 53.0,
+        "path": ".images\\findmatch-path.png",
+        "source": null,
+        "type": "image"
+    },
+    "ranked": {
+        "confidence": 58.0,
+        "path": ".images\\ranked-path.png",
+        "source": null,
+        "type": "image"
+    }
+}
